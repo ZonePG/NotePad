@@ -29,13 +29,12 @@ private:
 public:
     BloomFilter();
     ~BloomFilter();
-
     
+    // user's control
     void import_CPP_KeyWords();
     void import_Java_keyWords();
     void import_Python_keyWords();
 
-    // user's control
     bool KeyExistInBitFilter(const std::string &str);
 };
 

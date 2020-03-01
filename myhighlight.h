@@ -31,6 +31,7 @@ private:
     QTextCharFormat myClassFormat;
     QRegularExpression *rule;
     
+    // my Bloom Filter member
     BloomFilter *BF;
 };
 

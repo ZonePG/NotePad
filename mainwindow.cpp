@@ -14,6 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->textEdit->setFont(QFont(tr("Consolas"), 11));
 
     highlighter =  new MyHighlighter(ui->textEdit->document());
+    // After this my highlightBlock() function will be called automatically whenever necessary.
 }
 
 MainWindow::~MainWindow()
